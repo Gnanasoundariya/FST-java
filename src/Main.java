@@ -49,7 +49,7 @@ public class Main {
          */
         int e=1;
         do{
-            System.out.println(e);
+            System.out.println("Do-While loop: e = " +e);
             e++;
         }while(e<=10);
 
@@ -58,7 +58,7 @@ public class Main {
          */
 
         for(int a=1;a<=10;a++){
-            System.out.println(a);
+            System.out.println("For loop: a = " +a);
         }
 
         /**
@@ -69,7 +69,7 @@ public class Main {
                 //breaking the loop
                 break;
             }
-            System.out.println(r);
+            System.out.println("Break loop: r = " +r);
         }
 
         /**
@@ -79,7 +79,7 @@ public class Main {
             if (t == 4) {
                 continue;
             }
-            System.out.println(t);
+            System.out.println("Break and Continue loop: t = " +t);
         }
 
 
